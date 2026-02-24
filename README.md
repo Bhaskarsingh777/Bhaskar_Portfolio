@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Bhaskar Singh
 
-I'm a **BCA Student** passionate about **Web Development, Python Programming, and Data Analytics**.
+I'm a **BCA Student** passionate about **Web Development | Python Programming | Data Analytics**.
 
 🌐 **Portfolio:** https://bhaskarsingh.vercel.app/
 
@@ -45,7 +45,7 @@ Check the **Projects** section on my portfolio for more!
 ## 📫 Connect With Me
 
 📧 Email: bhaskarrautela124@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/bhaskar-singh-414b39176/  
+🔗 LinkedIn: https://www.linkedin.com/in/bhaskar-singh-bca-graduate/  
 🌐 Portfolio: https://bhaskarsingh.vercel.app/  
 🐱 GitHub: https://github.com/bhaskarsingh777
 
