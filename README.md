@@ -47,7 +47,7 @@ Check the **Projects** section on my portfolio for more!
 📧 Email: bhaskarrautela124@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/bhaskar-singh-414b39176/  
 🌐 Portfolio: https://bhaskarsingh.vercel.app/  
-🐱 GitHub: https://github.com/bhaskarSingh
+🐱 GitHub: https://github.com/bhaskarsingh777
 
 ---
 
