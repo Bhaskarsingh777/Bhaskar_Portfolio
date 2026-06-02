@@ -1,284 +1,325 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bhaskar Singh | Portfolio</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style/style.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhaskar Singh | Portfolio</title>
 
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="style\style.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-  </head>
+<body>
 
-  <body>
-    <!-- ================= HEADER ================= -->
-    <header>
-      <div class="logo">Bhaskar Singh</div>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Bhaskar Singh</div>
 
-      <!-- Hamburger -->
-      <div class="menu-toggle" id="menu-toggle">
-        <i class="fas fa-bars"></i>
-      </div>
-
-      <nav id="navbar">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#internships">Internships</a>
-        <a href="#projects">Projects</a>
-        <a href="#certifications">Certificates</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <!-- ================= SOCIAL ICONS ================= -->
-    <div class="social-bar">
-      <a
-        href="https://github.com/Bhaskarsingh777"
-        target="_blank"
-        class="github"
-      >
-        <i class="fab fa-github"></i>
-      </a>
-
-      <a
-        href="https://www.linkedin.com/in/bhaskar-singh-bca-graduate"
-        target="_blank"
-        class="linkedin"
-      >
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-
-      <a
-        href="https://mail.google.com/mail/?view=cm&fs=1&to=bhaskarrautela124@gmail.com"
-        target="_blank"
-        class="gmail"
-      >
-        <i class="fa-solid fa-envelope"></i>
-      </a>
+    <!-- TOGGLE BUTTON -->
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
     </div>
 
-    <!-- ================= HERO SECTION ================= -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1>Hi, I'm <span>Bhaskar Singh</span></h1>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="social-bar">
 
-        <h3>
-          BCA Student | Web Developer | Python Developer | Data Analyst | React
-          Developer
-        </h3>
+    <a href="https://github.com/Bhaskarsingh777" target="_blank" class="github">
+      <i class="fab fa-github"></i>
+    </a>
 
-        <p>
-          I am passionate about building scalable web applications, writing
-          efficient Python programs, and transforming data into meaningful
-          insights. I focus on clean coding, structured problem-solving, and
-          continuous learning.
-        </p>
+    <a href="https://www.linkedin.com/in/bhaskar-singh-bca-graduate" target="_blank" class="linkedin">
+      <i class="fab fa-linkedin"></i>
+    </a>
 
-        <div class="hero-buttons">
-          <a href="Bhaskar.pdf" download class="btn">
-            <i class="fa-solid fa-download"></i> Download Resume
-          </a>
+    <!-- FIXED MAIL -->
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bhaskarrautela124@gmail.com" target="_blank" class="gmail">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
 
-          <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=bhaskarrautela124@gmail.com"
-            target="_blank"
-            class="btn-outline"
-          >
-            <i class="fa-solid fa-envelope"></i> Hire Me
-          </a>
-        </div>
-      </div>
-    </section>
+    <!-- FIXED CALL -->
+    <a href="tel:+919871209052" target="_blank" class="phone">
+      <i class="fa-solid fa-phone"></i>
+    </a>
 
-    <!-- ================= ABOUT ================= -->
-    <section id="about">
-      <h2>About Me</h2>
+  </div>
+
+  <!-- HERO -->
+<section class="hero">
+
+  <h1>Hi, I'm <span>Bhaskar Singh</span></h1>
+
+  <!-- ROLE TAGLINE -->
+  <h4 class="hero-role">
+    Full Stack Web Developer | Python Developer | Data Analyst | React Developer
+  </h4>
+
+  <!-- SHORT SUMMARY -->
+  <p class="hero-summary" id="typing">
+  </p>
+
+  <!-- BUTTONS -->
+  <div class="hero-btns">
+
+    <a href="BhaskarSingh_Resume.pdf" class="btn" download>
+      <i class="fa-solid fa-download"></i> Download Resume
+    </a>
+
+    <a href="#contact" class="btn-outline">
+      <i class="fa-solid fa-paper-plane"></i> Hire Me
+    </a>
+
+  </div>
+
+</section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+
+    <div class="card">
+      <p>
+        I am a <b>BCA graduate student</b>, passionate and dedicated to
+        building modern digital solutions.
+        I have a strong interest in <b>Full Stack Web Development, Python
+          Programming, and Data Analytics</b>.
+      </p>
+
+      <br>
 
       <p>
-        I am currently pursuing Bachelor of Computer Applications (2023–2026)
-        with strong foundations in programming, web development, and data
-        analytics.
+        I specialize in building <b>responsive, user-friendly, and
+          performance-optimized web applications</b>
+        using technologies like <b>HTML, CSS, JavaScript, React.js, and
+          Python</b>.
+        I enjoy solving real-world problems through clean and scalable code.
+      </p>
+
+      <br>
+
+      <p>
+        My technical journey includes hands-on experience in:
+      </p>
+
+      <ul>
+        <li>Frontend Development (HTML, CSS, JavaScript, React)</li>
+        <li>Backend Development using Python & OOP concepts</li>
+        <li>Database Management using MySQL</li>
+        <li>Data Analysis using Pandas, NumPy, and Matplotlib</li>
+      </ul>
+
+      <br>
+
+      <p>
+        I have worked on academic and internship projects such as
+        <b>NariKavach (Women Safety System)</b>, <b>Quick Bite Food Ordering
+          Website</b>,
+        and <b>Course Explorer React Application</b>, which helped me improve
+        my problem-solving and development skills.
+      </p>
+
+      <br>
+
+      <p>
+        I am currently looking for <b>internship and entry-level
+          opportunities</b>
+        where I can contribute, learn from industry professionals, and grow as
+        a developer.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="grid">
+      <div>HTML5</div>
+      <div>CSS3</div>
+      <div>JavaScript</div>
+      <div>React.js</div>
+      <div>Python</div>
+      <div>C / C++</div>
+      <div>MySQL</div>
+      <div>Git & GitHub</div>
+    </div>
+    <br>
+    <br>
+    <h2>Soft Skills</h2>
+
+    <div class="grid">
+      <div>Team Collaboration</div>
+      <div>Leadership</div>
+      <div>Problem Solving</div>
+      <div>Communication</div>
+      <div>Time Management</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>🔐 NariKavach – Women Safety & Emergency Response System</h3>
+      <p>
+        A full-stack focused women safety solution designed to provide instant
+        emergency support.
+        The system enables <b>real-time location sharing, SOS alert
+          generation, and nearest police/hospital
+          detection</b>.
+      </p>
+      <p>
+        Built with focus on <b>user safety, fast response, and simple UI
+          experience</b> for emergency situations.
+      </p>
+      <p><b>Tech Stack:</b> HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="card">
+      <h3>🍔 Quick Bite – Online Food Ordering Platform</h3>
+      <p>
+        A responsive food ordering website designed with modern UI principles
+        and smooth user experience.
+        It includes menu browsing, category-based structure, and
+        mobile-friendly layout.
+      </p>
+      <p>
+        Focused on <b>UI/UX design, responsiveness, and performance
+          optimization</b>.
+      </p>
+      <p><b>Tech Stack:</b> HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="card">
+      <h3>📚 Course Explorer – React.js Single Page Application</h3>
+      <p>
+        A dynamic learning platform built using React.js that allows users to
+        explore and manage courses efficiently.
+        It supports <b>CRUD operations and reusable components
+          architecture</b>.
+      </p>
+      <p>
+        Designed to improve <b>state management, component reusability, and
+          SPA structure</b>.
+      </p>
+      <p><b>Tech Stack:</b> React.js, JavaScript, Bootstrap</p>
+    </div>
+
+    <div class="card">
+      <h3>📊 Data Analysis & Visualization Projects</h3>
+      <p>
+        Performed real-world data analysis on academic datasets including
+        placement trends and COVID-19 datasets.
+      </p>
+      <p>
+        Extracted meaningful insights using <b>data cleaning, preprocessing,
+          and visualization techniques</b>.
+      </p>
+      <p><b>Tech Stack:</b> Python, Pandas, NumPy, Matplotlib, Seaborn</p>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Python Development Intern</h3>
+      <p><b>Octanet Services Pvt Ltd</b> | Aug 2024 – Oct 2024</p>
+
+      <p>
+        Worked on a real-time <b>ATM Simulation System</b> using Python.
+        Implemented core banking operations like deposit, withdrawal, balance
+        check, and authentication system.
       </p>
 
       <p>
-        My expertise includes Object-Oriented Programming (OOP), responsive UI
-        design, database management using MySQL, and data analysis using Pandas,
-        NumPy, Matplotlib, and Seaborn.
+        Strengthened understanding of <b>Object-Oriented Programming (OOP),
+          modular design, and input validation</b>.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Data Analytics Intern</h3>
+      <p><b>IMSUC Ghaziabad</b> | Jun 2025 – Jul 2025</p>
+
+      <p>
+        Worked on real-world datasets to perform <b>Exploratory Data Analysis
+          (EDA)</b>.
+        Cleaned and processed raw data for meaningful insights.
       </p>
 
       <p>
-        I have developed academic and internship projects applying structured
-        logic, modular design, and performance optimization techniques. I am
-        seeking internship opportunities to contribute effectively and grow
-        professionally in a dynamic environment.
+        Created interactive visualizations using <b>Matplotlib and Seaborn</b>
+        to support data-driven decision making.
       </p>
-    </section>
-
-    <!-- ================= SKILLS ================= -->
-    <section id="skills">
-      <h2>Technical Skills</h2>
-
-      <div class="skills-grid">
-        <div>Python</div>
-        <div>C</div>
-        <div>C++</div>
-        <div>HTML5</div>
-        <div>CSS3</div>
-        <div>JavaScript</div>
-        <div>React</div>
-        <div>Bootstrap</div>
-        <div>MySQL</div>
-        <div>Git & GitHub</div>
-      </div>
-      <br><br>
-
-      <h2>Soft Skills</h2>
-
-      <div class="skills-grid">
-        <div>Team Collaboration</div>
-        <div>Leadership</div>
-        <div>Problem Solving</div>
-        <div>Time Management</div>
-        <div>Adaptability</div>
-      </div>
-    </section>
-
-    <!-- ================= INTERNSHIPS ================= -->
-    <section id="internships">
-      <h2>Internship Experience</h2>
-
-      <div class="card">
-        <h3>Python Development Intern</h3>
-        <p><strong>Octanet Services Pvt. Ltd. | Aug 2024 – Oct 2024</strong></p>
-
-        <ul>
-          <li>Developed a secure ATM Simulation System using Python.</li>
-          <li>
-            Implemented authentication, deposit, withdrawal, and balance
-            operations.
-          </li>
-          <li>Applied OOP concepts for modular architecture.</li>
-          <li>Improved reliability through structured input validation.</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Data Analysis Intern</h3>
-        <p><strong>IMSUC Ghaziabad | Jun 2025 – Jul 2025</strong></p>
-
-        <ul>
-          <li>Performed Exploratory Data Analysis on real-world datasets.</li>
-          <li>Cleaned and preprocessed raw data for accurate analysis.</li>
-          <li>Created visual dashboards using Matplotlib & Seaborn.</li>
-          <li>Extracted actionable insights for data-driven decisions.</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ================= PROJECTS ================= -->
-    <section id="projects">
-      <h2>Projects</h2>
-
-      <div class="card">
-        <h3>Quick Bite – Online Food Ordering Website</h3>
-        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-
-        <ul>
-          <li>Built a fully responsive web-based food ordering platform.</li>
-          <li>Designed intuitive navigation and optimized UI experience.</li>
-          <li>Ensured cross-device compatibility.</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Course Explorer – React Application</h3>
-        <p><strong>Technologies:</strong> React, Bootstrap</p>
-
-        <ul>
-          <li>Developed a Single Page Application (SPA).</li>
-          <li>Implemented CRUD operations for dynamic content management.</li>
-          <li>Designed reusable and scalable components.</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Data Analysis & Visualization</h3>
-        <p><strong>Technologies:</strong> Python, Pandas, Matplotlib</p>
-
-        <ul>
-          <li>Analyzed placement dataset trends.</li>
-          <li>Performed COVID-19 data pattern analysis.</li>
-          <li>Presented insights using structured visual dashboards.</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ================= CERTIFICATIONS ================= -->
-    <section id="certifications">
-      <h2>Certifications</h2>
-
-      <div class="skills-grid">
-        <div>Data Analytics – Coursera</div>
-        <div>Machine Learning with Python – IIT Kanpur</div>
-        <div>Database Foundation – Oracle</div>
-        <div>Python for Data Science & AI – Coursera</div>
-      </div>
-    </section>
-
-    <!-- ================= CONTACT ================= -->
-    <section id="contact">
-      <h2>Contact</h2>
 
       <p>
-        Email:
-        <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=bhaskarrautela124@gmail.com"
-          target="_blank"
-        >
-          bhaskarrautela124@gmail.com
+        Gained strong understanding of <b>data preprocessing, pattern
+          recognition, and visualization techniques</b>.
+      </p>
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="card contact-info">
+      <p>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bhaskarrautela124@gmail.com" target="_blank"
+          class="gmail">
+          <i class="fa-solid fa-envelope"></i>
+          Gmail
         </a>
       </p>
 
-      <p>Phone: +91 9871209052</p>
+      <p>
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+919871209052" target="_blank">+91 9871209052</a>
+      </p>
 
       <p>
-        I am open to internship opportunities, freelance work, and collaborative
-        projects.
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/Bhaskarsingh777" target="_blank">GitHub
+          Profile</a>
       </p>
-    </section>
 
-    <!-- ================= FOOTER ================= -->
-    <footer>© 2026 Bhaskar Singh | All Rights Reserved</footer>
+      <p>
+        <i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/bhaskar-singh-bca-graduate" target="_blank">LinkedIn Profile</a>
+      </p>
+    </div>
 
-    <!-- ================= FLOATING CONTACT BUTTON ================= -->
-    <a
-      href="https://mail.google.com/mail/?view=cm&fs=1&to=bhaskarrautela124@gmail.com"
-      target="_blank"
-      class="floating-btn"
-    >
-      <i class="fa-solid fa-paper-plane"></i>
-    </a>
+    <form id="contact-form">
 
-    <!-- ================= JS ================= -->
-    <script>
-      const toggle = document.getElementById("menu-toggle");
-      const navbar = document.getElementById("navbar");
+      <input type="text" name="from_name" placeholder="Your Name" required>
 
-      toggle.addEventListener("click", () => {
-        navbar.classList.toggle("active");
-      });
-    </script>
-  </body>
+      <input type="email" name="from_email" placeholder="Your Email" required>
+
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2024 Bhaskar Singh
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
-
