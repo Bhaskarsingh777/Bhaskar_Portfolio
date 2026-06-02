@@ -314,9 +314,23 @@ h2{
 }
 
 .grid div:hover{
-  background:#60a5fa;
   color:#0b1220;
   transform:scale(1.05);
+}
+#certifications .card{
+  text-align:center;
+  padding:18px;
+}
+
+#certifications h4{
+  color:#60a5fa;
+  margin-bottom:6px;
+  font-size:16px;
+}
+
+#certifications p{
+  color:#94a3b8;
+  font-size:14px;
 }
 
 /* ================= CONTACT SECTION IMPROVED ================= */
