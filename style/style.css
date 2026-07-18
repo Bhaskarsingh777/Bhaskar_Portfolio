@@ -271,6 +271,32 @@ nav a.active::after{
     transform:translateY(-6px) scale(1.1);
   }
 }
+/* WhatsApp Button */
+.social-bar .whatsapp{
+    background: #25D366;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 8px 0;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.35);
+    transition: all 0.3s ease;
+}
+
+.social-bar .whatsapp:hover{
+    background: #1ebe5d;
+    transform: scale(1.12);
+    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.5);
+}
+
+.social-bar .whatsapp i{
+    font-size: 24px;
+}
 
 /* ================= SECTIONS ================= */
 section{
