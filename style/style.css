@@ -241,7 +241,7 @@ nav a.active::after{
 .social-bar .linkedin{ background:#0a66c2; }
 .social-bar .gmail{ background:#ea4335; }
 .social-bar .phone{ background:#22c55e; }
-
+.social-bar .whatsapp{ background:#25D366; }
 /* ================= MOBILE FIX (BOTTOM BAR) ================= */
 @media(max-width:768px){
 
